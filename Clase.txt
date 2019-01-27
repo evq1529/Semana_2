@@ -1,0 +1,145 @@
+En GitHub hay que añadir las notas de clase en Sesión 2 (esto para todas las sesiones).
+
+Se inicia ingresando al sitio anaconda.com/descargas.
+
+Se abre el símbolo del sistema: cmd
+
+Se ejecuta cd Python_3_7_2 y se abre Python en consola: python.exe
+
+Para salir se escribe exit()
+
+ipython es un intérprete: https://ipython.org/install.html
+
+easy_install ipython se corre en la carpeta donde se encuentra instalado Python en la computadora del usuario.
+
+Para abrirlo se ubica en la carpeta donde se encuentra Python instalado y se ejecuta ipython.
+
+Añade color y brinda muchas prestaciones para trabajar con el código (permite devolvernos).
+
+En Python existen datos booleanos. Se asigna falso mediante None, False, 0 o estructuras de datos vacías. Existen operadores:
+
+and: & (producto)
+or: | (suma lógica)
+negación: not(a) o bien sin paréntesis
+
+Suma y producto si lo que se opera son número que se pasan a binarios.
+
+Con la tecla Tab se autocompleta.
+
+Ejercicio con valores lógicos
+pasa = examen_bueno & asisto & hago_tarea
+
+None declara una valor nulo.
+
+Estructuras de control:
+
+-Condicional: if condición : Python crea identación después de los :
+				Instrucciones
+		else: 
+			instrucciones
+
+pass es una palabra reservada sirve para pasar un proceso.
+
+Si no se ha identado Python genera un error.
+
+elif es como un else pero se agrega condición.
+
+Para realizar comparaciones
+<, <=, >, >=, ==, !=, is objeto idéntico (a is None), is not el objeto no es idéntico. Por ejemplo, None se puede utilizar como una bandera.
+
+complex(re, im) crea número complejos, pow(a,b), math.floor (<=), math.ceil (>=)
+
+Tipos de datos: int, str, float, bool, list
+
+-List
+
+Denotan una colección de elementos. Esa colección puede ser de cualquier cosa o mezcla de cosas o tipos de datos. Se delimitan con [] y los elementos se ponen separados por comas.
+
+a=[] es una lista vacía.
+
+len: calcula su longitud.
+
+Ejemplo: [[[[]]],7]
+
+Las posiciones de los elementos de una lista comienza en cero (hay un orden cardinal).
+
+x in s determina si x está en s.
+x not in s es lo contrario.
++ une dos listas.
+numpy librería para realizar operaciones vectoriales.
+3*a triplica la lista y es conmutativa.
+a[i] retorna el elemento i-ésimo de la lista a (i+1).
+a[-1] me retorna el último elemento y así sucesivamente.
+a[i:j] va desde el dato i+1 hasta el j.
+a[i:] desde i+1 hasta el final.
+a[:j] va hasta el j.
+a[:] toda la lista.
+a[i:j:k]: va desde i+1 a el dato en la posición j con incrementos de k. Por ejemplo, a[::2] genera la lista donde los elementos se encuentran en posición par. a[1::2] genera la lista de los impares.
+a[::-1] le da vuelta a una lista.
+min(a): devuelve el mínimo. min(L, len) devuelve el primer dato con menor longitud.
+max(b): devuelve el máximo.
+a.count(x): el número de ocurrencias de x sobre a.
+a.index(x): posición de x sobre a.
+a.append(x): añade a "a" el dato x al final.
+a[i] = x reemplaza por x en la posición x.
+a.reverse() la pone en reversa sobre a.
+s=insert(a,x): inserta x a s en la posición a
+del es para borrar del a[i:j]
+a.clear() limpia todos los datos de la lista.
+a.extend([lista]) es como el + une las dos listas.
+a*n genera n veces la lista a
+a.pop(i) libera el dato i de la lista.
+a==a[::-1] determina si es anagrama siendo a un string.
+split(a): descompone un string como un vector de caracteres.
+list("Hola") genera un vector con las componentes como caracteres del string.
+a.sort() ordena los elementos de a y sobre escribe la lista.
+
+Ejercicio 1: Anagrama
+a es el string
+a==a[::-1]
+
+O bien,
+b=list("Hola")
+bb=b.reverse()
+b==bb
+
+Ejercicio 2: Palíndromo o permutación
+a=list("hola")
+b=list("olah")
+a.sort();b.sort();a==b
+
+Se se genera una lista de listas y se actualiza una de las filas cambia la matriz.
+
+c=[a, b] si se elimina a a queda la última referencia sobre c.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
